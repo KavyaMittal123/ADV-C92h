@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="gamepage.js"></script>
+
+<body>
+
+    <body background="backgorund.webp">
+
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Guess The Answerrrrrr !</h2>
+        <h3 id="player_quest"> </h3>
+		<h3 id="player_ans"> </h3>
+
+		<div id="output" class="col-lg-6"></div>
+
+		<br>
+		<br>
+
+		<label>Send Your numbers : <b style="color: rgb(0, 38, 255)">Try putting 2 random numbers </b></label>
+
+		<input id="word" type="text" class="form-control" style="width:50%">
+		<br>
+
+        <input id="word1" type="number" class="form-control" style="width:50%">
+		<br>
+
+
+		<button class="btn btn-info" onclick="send()" style="width:30%"> Save </button>
+	</center>
+</div>
+
+</body>
+
